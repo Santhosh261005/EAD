@@ -12,7 +12,7 @@ function App() {
   });
 
   const [message, setMessage] = useState(null);
-  const API = process.env.REACT_APP_API_URL || 'http://localhost:4000';
+  const API = process.env.REACT_APP_API_URL || 'https://ead-project-jgrx.onrender.com';
 
   // Handle text/select input changes
   const handleChange = (e) => {
